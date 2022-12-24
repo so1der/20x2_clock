@@ -25,7 +25,7 @@ Here is a schematic:
 
 ![alt tag](https://raw.githubusercontent.com/so1der/20x2_clock/main/images/schematic.png "Schematic")​
 
-Schematic may be vary according to what microcontroller, RTC, or display You are using. I used 4 bit data bus on display, but thats okay if You use I2C module for display, you will just need to change display initialization(and maybe display library). Display backlight is controlled via 2N2222 transistor, with PWM.
+Schematic may be vary according to what microcontroller, RTC, or display You are using. I used 4 bit data bus on display, but thats okay if You use I2C module for display, You will just need to change display initialization(and maybe display library). Display backlight is controlled via 2N2222 transistor, with PWM.
 
 <h3>Variables</h3>
 
@@ -66,4 +66,4 @@ To this
 //rtc.adjust(DateTime(F(__DATE__), F(__TIME__)));
 ```
 
-If you wont do it, it may cause some problems in future, every time when clock will turn on, it will try to reach system time from your PC, to which it no longer have access.
+If You wont do it, it may cause some problems in future, every time when clock will turn on, it will try to reach system time from your PC, to which it no longer have access.
