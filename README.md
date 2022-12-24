@@ -50,7 +50,7 @@ To work properly, You need to install next libraries:
 
 BigNumbers, as You can see, main library in this project. Very cool library by __seanauff__. I slightly modified it, how its draws digits "1". You can see comparison below. You can download original library by link above, or use modified one, all libraries, including modified "BigNumbers" are located in folder "libraries" in this project. Still, if You want modified one, anyway go and support original work of __seanauff__.
 
-![alt tag](https://raw.githubusercontent.com/so1der/20x2_clock/main/images/comparison.png "Comparison")​
+![alt tag](https://raw.githubusercontent.com/so1der/20x2_clock/main/images/comparison.jpg "Comparison")​
 
 <h3>Set up</h3>
 
