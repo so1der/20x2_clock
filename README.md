@@ -1,6 +1,6 @@
 <h1><b>20x2 Clock!</b></h1>
 
-![alt tag](https://raw.githubusercontent.com/so1der/20x2_clock/main/images/clock.png "Schematic")​
+![alt tag](https://raw.githubusercontent.com/so1der/20x2_clock/main/images/clock.png "Clock")​
 
 So this is a simple clock with a character LCD display, RTC module, and a ESP8266 in role of microcontroller. I choose an ESP8266 cause later I want to create NTP version of this clock, so You dont need to buy a RTC module, cause clock will get time info via Your WIFI network. In order to display hours, minutes, and seconds - You need LCD display that contain 20 columns and 2 rows. Each digits occupies 3 columns on each row. So in clock we have 6 digits, 6*3 = 18, and we have 2 columns left, which we can use for a separator dots. You still can use 16x2 display, but in this case You need to slightly modify code, so seconds wont display.
 
