@@ -68,4 +68,4 @@ To this
 //rtc.adjust(DateTime(F(__DATE__), F(__TIME__)));
 ```
 
-If You wont do it, it may cause some problems in future, every time when clock will turn on, it will try to reach system time from your PC, to which it no longer have access.
+If You wont do it, it may cause some problems in future, every time when clock will turn on, it will readjust RTC module with time and data that was on the moment you upload firmware into Your ESP8266.
