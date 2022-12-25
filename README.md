@@ -52,7 +52,7 @@ BigNumbers, as You can see, main library in this project. Very cool library by _
 
 ![alt tag](https://raw.githubusercontent.com/so1der/20x2_clock/main/images/comparison.jpg "Comparison")​
 
-![alt tag](https://raw.githubusercontent.com/so1der/20x2_clock/main/images/comparison2.jpg "Another comparison")​
+![alt tag](https://raw.githubusercontent.com/so1der/20x2_clock/main/images/comparison2.png "Another comparison")​
 
 <h3>Set up</h3>
 
